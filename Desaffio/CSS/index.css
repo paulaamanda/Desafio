@@ -1,0 +1,43 @@
+* {
+    text-align: center;
+}
+body{
+    background-color: rgb(31, 226, 226);
+    color: black;
+}
+table{
+    color: black;
+    margin: auto;
+    
+}
+h1{
+    color: black;
+    
+}
+#fe{
+color: black;
+}
+table th, td{
+    border: solid 2px rebeccapurple;
+      background-color: aqua;
+      margin-left: auto;
+      margin-right: auto;
+    
+}
+
+th{
+    padding: 15px;
+    text-align: left;
+    border: 2px black;
+  
+    
+
+}
+   table{
+       width: 700px;
+       margin-left: auto;
+       margin-right: auto;
+       background-color: aquamarine;
+   }
+
+   

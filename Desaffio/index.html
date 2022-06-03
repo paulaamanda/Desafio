@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Produtos_cria</title>
+</head>
+
+<body style="margin: 25px;">
+    <h1>CADASTRE SEUS PRODUTROS</h1>
+    <div>
+        <form id="formin">
+            <label for="nome">Nome do produto: </label>
+            <input type="text" id="nome" name="nome" placeholder="Fone bluetooth" required />
+
+            <label for="preço">preço do produto: </label>
+            <input type="number" id="preco" name="preco" placeholder="R$ 400" required />
+
+            <input type="checkbox" name="prime" id="prime">
+            <label for="prime">Este produto é prime?</label>
+            <input type="hidden" id="gx" value="novo">
+            <input type="submit" value="salvar" id="fe">
+            <input type="button" id="sair" value="Sair">
+        </form>
+        
+        <div id="msg-erro"></div>
+    </div>
+    <br><br>
+    <table>
+        <caption>
+            <h2>SEUS PRODUTOS</h2>
+        </caption>
+        <thead>
+            <tr>
+                <th>identificador</th>
+                <th>nome do produto</th>
+                <th>preço do produto</th>
+                <th>é prime?</th>
+                <th>ações</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbody"></tbody>
+
+    </table>
+    <script src="JS/index.js"></script>

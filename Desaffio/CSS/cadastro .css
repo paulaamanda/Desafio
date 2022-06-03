@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+h1{
+    color: aquamarine;
+}
+.campo{
+    background-color: aquamarine;
+}
+fieldset{
+   border-color: aquamarine;
+}
